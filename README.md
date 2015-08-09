@@ -34,8 +34,26 @@ Create a file called "WEB-INF/web.xml".  Amoung other settings, this file will a
 that tells Tomcat how the user will access this servlet.
 
 - - -
-# Using GITHUB to FORK, SYNC, and use PULL reqeusts.
-*
+# Using GITHUB to FORK, BRANCH, SYNC, and use PULL reqeusts.
+This section uses the Windows Desktop interface.  This process may also be accomplished using the command line.
+A typical application development cycle consists of creating a FORK of the original application in your account.  Then,
+a BRANCH is created to preserve the original copy of the application where changes can be made and tested.  During the
+development and testing phase, changes will applied to the local branch copy using "Commit To Master" with bulk changes
+being commited to GITHUB using the SYNC command.  Changes can be rolled back using the "revert" process.  Once the
+changes are complete, they may be submitted to the owner of the original application using a "Pull Request".  "Bug
+Reports" may also be made.
+
+* FORK
+ * On the project page in GITHUB, use the FORK button to create a copy of the project in your GITHUB account.
+ * Use the "CLONE IN DESKTOP" feature to make a copy of the project on your local machine.
+* BRANCH
+ * On the project page in your GITHUB account open the BRANCH dropdown and create a descriptive name for the new branch.
+* SYNC
+ * As changes are made to the application, use the desktop interface to COMMIT TO MASTER.
+ * When the changes are ready to synch with GITHUB, use the SYNC button in the upper-righthand corner of the GUI
+* PULL
+ * Use the "Pull Request" link to request that the owner view and consider your changes.  
+ * If approved, the changes will be MERGED with the master project.
 
 ######References
 ######Turner, Davis, & Chae, Jinseok, 2008.  Java Web Programming with Eclipse.
