@@ -5,6 +5,7 @@
     <body>
         <%
             out.println("Hello, world!");
+            out.println("This is a JSP web page");
         %>
     </body>
 </html>
